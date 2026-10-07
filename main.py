@@ -40,7 +40,7 @@ def open_game_page():
     var_random = random.randint(1, 3)
     var_counter = ttk.IntVar(value=0)
 
-    l_p2_result = ttk.Label(root_page2, text="", bootstyle="danger")
+    l_p2_result = ttk.Label(root_page2, text="", bootstyle="danger" , font = "calibri 12 bold")
     l_p2_result.pack(pady=27)
 
     def check_game():
